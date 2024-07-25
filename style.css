@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background-color: #E0E0E0;
+    height: 80px;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    padding: 0px 20px  ;
+
+
+}
+
+.nav-img{
+    display: flex;
+    width: 70px;
+    align-items: center;
+}
+.nav-items
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+ .nav-items li{
+    list-style: none;
+ }
+ .nav-items a {
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(15, 54, 123);
+ }
